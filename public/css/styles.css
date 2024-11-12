@@ -1,0 +1,187 @@
+body {
+    background-image: url('/imagens/Capa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Garante que os livros sejam organizados de forma flexível */
+.content-center .ul {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    justify-content: center; /* Centraliza os itens na tela */
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+}
+
+/* Estilo de cada item (livro) */
+.content-center .li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribui o conteúdo dentro de cada li */
+    width: 200px; /* Defina a largura dos itens (livros) */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Imagens dos livros, ajustando o tamanho para ficarem proporcionais */
+.content-center img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Espaçamento entre os botões */
+.content-center .space-top {
+    margin-top: 10px;
+}
+
+/* Estilo dos botões, adaptado para todos */
+.content-center button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alinhamento do botão de 'Adicionar Livro' para o admin */
+.content-center .adicionar {
+    margin-bottom: 20px;
+    background-color: #007bff;
+}
+
+/* Certifique-se de que o texto no botão seja legível e atraente */
+.content-center button:hover {
+    background-color: #45a049;
+}
+
+/* Para manter todos os livros centralizados */
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ajusta o espaço entre o título e o conteúdo */
+.content-center h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos alertas de sucesso e erro */
+#success-message, #error-message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Alerta de sucesso */
+#success-message {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Alerta de erro */
+#error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.specific-page{
+    background-image: url('http://localhost/bookstore/public/imagens/home1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+ 
+  
+}
+
+.center {
+    text-align: center;
+}
+  
+  .buttonsgeral {
+    font-family:'Roboto', sans-serif;
+    color: #FFF;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    
+  }
+  
+ .buttonsgeral:hover {
+    background-color: #45a049;
+  }
+
+  .buttons-container {
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 60px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    color: #45a049;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center;     /* Centraliza os itens horizontalmente */
+    height: 100vh;           /* Define a altura da tela para ocupar toda a altura */
+    margin-top: 30px;        /* Adiciona uma margem no topo para afastar do topo da tela */
+}
+
+.janela{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between; /* Distribui o conteúdo dentro de cada li */
+    width: 400px; /* Defina a largura dos itens (livros) */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 60px;
+    margin: 10px;
+    
+    border-radius: 8px;
+    /*box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);*/
+    text-align: center;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;  /* Organiza os inputs na vertical */
+    align-items: flex-start; /* Alinha à esquerda (você pode ajustar conforme necessário) */
+    gap: 5px;               /* Espaço entre os inputs */
+    max-width: 400px;        /* Define uma largura máxima para os inputs */
+    margin: 0 auto;          /* Centraliza o formulário */
+}
+
+
+
+
+
+
+
