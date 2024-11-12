@@ -5,9 +5,10 @@
 
 ## Pré-Requisitos
 
-- **PHP**: >= 8.2 (Instalado com Laragon)
+- **PHP 8.2** (Instalado com Laragon)
 - **Composer** (Instalado com Laragon)
 - **MySQL** (Instalado com Laragon)
+- **Laravel 11** (Instalado com Laragon)
 
 ## Instalações
 
