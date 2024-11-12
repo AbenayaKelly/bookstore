@@ -6,7 +6,7 @@
 ## Pré-Requisitos
 
 - **PHP 8.2** (Instalado com Laragon)
-- **Composer** (gerenciar dependência)
+- **Composer** (Gerenciar dependência)
 - **MySQL** (Instalado com Laragon)
 - **Laravel 11** (Instalado com Laragon)
 
